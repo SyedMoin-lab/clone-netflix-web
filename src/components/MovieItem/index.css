@@ -1,0 +1,17 @@
+.movieitem {
+  cursor: pointer;
+  width: 18.75rem;
+  max-height: 9.375rem;
+  object-fit: contain;
+  margin: 5px;
+  transition: 350ms;
+}
+
+.movieitem:hover {
+  transform: scale(1.04);
+}
+
+.movieitem--large {
+  width: 31.25rem;
+  max-height: 18.75rem;
+}
